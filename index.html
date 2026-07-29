@@ -3,21 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>MileTracker</title>
-
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="brand">
+                <span class="brand-mark">📍</span>
+                <span class="brand-name">MileTrack</span>
+            </div>
+            <p class="site-note">Coming soon to iPhone & Android</p>
+        </header>
 
-    <h1>MileTracker</h1>
+        <main class="hero-section">
+            <div class="hero-copy">
+                <span class="pill-label">COMING SOON</span>
+                <h1>Never miss another <span class="highlight">deductible mile.</span></h1>
+                <p class="hero-text">Automatic mileage tracking, easy classification, and tax-ready reports—so you can focus on your business, not your mileage.</p>
+                <div class="pricing">
+                    <span class="price">$39.99</span>
+                    <span class="price-unit">/ year</span>
+                </div>
+                <div class="cta-row">
+                    <a class="btn btn-dark" href="#">Get for iPhone</a>
+                    <a class="btn btn-green" href="#">Get for Android</a>
+                </div>
+                <ul class="feature-list">
+                    <li>Privacy first</li>
+                    <li>Secure & reliable</li>
+                    <li>Designed for small business</li>
+                </ul>
+            </div>
 
-    <p>Never miss another deductible mile.</p>
+            <div class="hero-visual">
+                <div class="device-mockup">
+                    <div class="device-topbar">
+                        <span>Today</span>
+                        <span class="badge">23.4 mi</span>
+                    </div>
+                    <div class="device-screen">
+                        <div class="map-placeholder"></div>
+                        <div class="drive-summary">
+                            <div class="summary-row">
+                                <span>Business</span>
+                                <strong>12.7 mi</strong>
+                            </div>
+                            <div class="summary-row">
+                                <span>Personal</span>
+                                <strong>10.7 mi</strong>
+                            </div>
+                        </div>
+                        <div class="report-card">
+                            <div class="report-row">
+                                <span>Total Drives</span>
+                                <strong>3</strong>
+                            </div>
+                            <div class="report-row">
+                                <span>Business Miles</span>
+                                <strong>96.3 mi</strong>
+                            </div>
+                            <div class="report-row report-highlight">
+                                <span>Potential Deduction</span>
+                                <strong>$64.72</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="device-tabs">
+                        <span class="tab active">Drives</span>
+                        <span class="tab">Reports</span>
+                        <span class="tab">Settings</span>
+                    </div>
+                </div>
+            </div>
+        </main>
 
-    <button>Get for iPhone</button>
+        <section class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🚗</div>
+                <h3>Automatic Tracking</h3>
+                <p>We detect your drives in the background—no tap to start, no tap to stop.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏷️</div>
+                <h3>Smart Classification</h3>
+                <p>Easily mark drives as business or personal and let us handle the rest.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📄</div>
+                <h3>Tax-Ready Reports</h3>
+                <p>Generate tax reports in seconds and save thousands at tax time.</p>
+            </div>
+        </section>
+
+        <section class="newsletter-panel">
+            <div class="newsletter-copy">
+                <h2>Be the first to know</h2>
+                <p>We're putting the finishing touches on MileTrack. Join early access and we'll let you know the moment it's ready.</p>
+            </div>
+            <form id="notify-form" class="newsletter-form">
+                <input id="email-input" type="email" placeholder="Enter your email address" aria-label="Email address" required>
+                <button type="submit">Notify Me</button>
+            </form>
+            <p class="small-note">No spam. Unsubscribe anytime.</p>
+        </section>
+
+        <footer class="site-footer">
+            <p>© 2024 MileTrack. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
